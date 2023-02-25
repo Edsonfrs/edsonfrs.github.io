@@ -1,0 +1,30 @@
+body {
+    background-image: url(/assets/escola-atena.jpg);
+    background-color: #8B0000;
+    height: 500px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.05em;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+
+  .menu {
+    width: 80%;
+    background-color: #800000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:80px;
+    padding: 20px;
+  }
+
+  section {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
