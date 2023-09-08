@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(130, 194, 130);
+    color: #000000;
+}
+.container {
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+img {
+    width: 400px;
+}
