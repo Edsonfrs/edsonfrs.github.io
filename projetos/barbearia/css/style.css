@@ -1,0 +1,154 @@
+/* Body */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+    
+}
+
+/* Classes */ 
+.container {
+    display: block;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Divs */
+
+
+div {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+/* Elementos */ 
+
+h1{
+    text-align: center; 
+    border: 2px solid rgb(76, 75, 75);
+    color: rgb(76,75,75);
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center; 
+    font-weight: normal;
+    color: gray;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 10px;
+}
+
+p {
+    font-size: 30px;
+    color: grey;
+    text-align: justify;
+    
+}
+
+
+img {
+    margin: auto;
+    display: block;
+    width: 15%;    
+}
+
+/* Sections */
+
+section {
+    text-align: center;
+    margin: 40px 0;
+    padding: 20px;
+}
+
+
+
+/* Botões */
+
+/*
+.button01 {
+    padding: 10px 20px;
+    background-color: #34af23;
+    border: none;
+}
+
+.button01 a {
+    text-decoration: none;
+    color: #ffffff;
+}*/
+
+.button02 {
+    appearance: button;
+    padding: 10px 20px;
+    background-color: #34af23;
+    border: none;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+/* Depoimentos */
+
+.cards {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    grid-gap: 35px;
+
+}
+
+.card {
+    
+    display: flex;
+    flex-direction: column;
+    
+    padding: 30px 35px;
+
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.171);
+}
+
+.card p {
+    font-size: 15px;
+}
+
+.card .user {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.star {
+    margin-top: 15px;
+    display: inline-block;
+    width: 20px;
+}
+
+p {
+    margin-top: 15px;
+    
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
