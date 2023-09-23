@@ -90,10 +90,15 @@ body {
     border-radius: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    font-size: 16px;
-    color: #333;
+    font-size: 18px;
+    color: 
     font-weight: 600;   
 
+}
+
+.wrapper .btn:hover {
+    color: #fff;
+    background-color: #5a075ad8;
 }
 
 .wrapper .register-link {
